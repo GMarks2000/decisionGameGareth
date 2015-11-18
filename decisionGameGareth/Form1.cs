@@ -28,7 +28,7 @@ namespace decisionGameGareth
             SoundPlayer rain = new SoundPlayer(Properties.Resources.rainSound);
             rain.Play();
         }
-        int scene = 1; //tracks where the user is in the game
+        int scene = 2; //tracks where the user is in the game
         Boolean murdererIdentityKnown = false;
         Boolean murderMethodKnown = false;
 
